@@ -28,4 +28,4 @@ schedule.every().day.at("10:00").do(send_price_message)
 
 while True:
 	schedule.run_pending()
-
+	time.sleep(1)
